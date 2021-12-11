@@ -38,9 +38,9 @@ body {
 }
 
 .one {
-    background-image: url(img/kartin.jpg);
+    background-color: rgb(184, 126, 126);
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    
     
 }
 .background {
@@ -94,7 +94,7 @@ body {
 .two {
     padding-top: 100px;
     padding-bottom: 200px;
-    background-image: url(kartinka2.jpg);
+    background-color: blueviolet;
 }
 
 .two h2{
@@ -142,6 +142,5 @@ body {
 
 .knopka {
     text-align: center;
-    
-    
+    width: 300px;
 }
