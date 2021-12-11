@@ -1,146 +1,74 @@
-body {    
-    margin: 0;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Site2</title>
+</head>
+<body>
+    <main>
+        <section class="one">
+            <div class="background">
+                <h2><p>YOUR LOGO</p></h2>
+                <h5><p>LANDING PAGE</p></h5>
+            </div>
+            
+            <div class="zagol">
+                <h1><p>THE BEST LANDING PAGE</p></h1>
+                <h2><p>YOU ARE LOOKING FOR.</p></h2>
+            </div>
     
-}
-
-.krug {
-    text-align: center;
-}
-
-.background p{
-    text-align: center;
-    color: #fff;
-    font-family: Arial;
-
-}
-
-.zagol p{
-    text-align: center;
-    color: #fff;
-    font-family: Arial;
-}
-
-.krugi {
-    height: 150px;
-    width: 150px;
-    background-color: rgba(255, 254, 212, 0.18);
-    border-radius: 50%;
-    display: inline-block;
+            <div class="krug">
+                <span class="krugi"><p>63 DAYS</p></span>
+                <span class="krugi"><p>03 HOURS</p></span>
+                <span class="krugi"><p>42 MINUTES</p></span>
+                <span class="krugi"><p>27 SECONDS</p></span>
+            </div>
     
-    
-}
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your e-mail">
+                <button>Subscribe</button>
+            </div>
+        </section>
 
-.krugi p {
-    text-align: center;
-    color: #fff;
-    font-family: Arial;
-    font-size: 28px;
-}
 
-.one {
-    background-color: rgb(184, 126, 126);
-    background-repeat: no-repeat;
-    
-    
-}
-.background {
-    padding-top: 10px;
-}
-.zagol h1{
-    font-size: 4vw;
-}
-.zagol {
-    padding-top: 70px;
-}
+        <section class="two">
+            <div class="all">
+                <div>
+                    <h2>ABOUT US</h2>
+                    <span class="white">  
+                        Welcome to the number 1 company in the industry! Looking for some helpful advice? Go no further; you've come to the right place. We are professional, experienced and dedicated to your satisfaction. We value your trust!
+                    </span>
+                </div>      
 
-.zagol h2 {
-    font-weight: lighter;
-}
+                <div>
+                    <span class="yellow">
+                        We are glad to welcome you on our company website! It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this.
+                    </span>
+                </div>   
+            </div>
+        </section>
 
-.subscribe {
-    display: inline-flex;
-    width: auto;
-    max-width: 100%;
-    padding-left: 370px;
-    padding-top: 60px;
 
-}
+        <section class="three">
+            <h2>GET IN TOUCH</h2>
+            <div class="glavnoe">
+                <input type="text" required placeholder="Name">
+                <input type="text" required placeholder="Phone">
+                <input type="text" required placeholder="Email">
+            </div>
 
-.subscribe input {
-    border: 1px solid #7e857b;
-    border-right: 1;
-    color: #fff;
-    
-}
+            <div class="pole">
+                <textarea name="text" id="" cols="60" rows="4" required placeholder="Message"></textarea>
+            </div>  
 
-.subscribe button {
-    border: 1px solid #7e857b;
-    background:  rgba(255, 254, 212, 0.18);
-    color: #fff;
-    text-transform: uppercase;
-}
+            <div class="knopka">   
+                <button>SEND</button>
+            </div>
+        </section>
 
-.subscribe input,
-.subscribe button {
-    display: block;
-    padding: 8px 10px;
-    border: 2;
-    background: transparent;
-    font: inherit;
-    box-sizing: border-box;
-    
-}
-
-.two {
-    padding-top: 100px;
-    padding-bottom: 200px;
-    background-color: blueviolet;
-}
-
-.two h2{
-    text-align: center;
-    color: #fff;
-    font-family: Arial;
-}
-
-.white {
-    text-align: justify;
-    color: #fff;
-}
-
-.yellow {
-    text-align: justify;
-    color: rgb(250, 229, 112);
-}
-.three h2{
-    color: #475052;
-    text-align: center;
-    font-family: Arial;
-}
-.three {
-    margin: 0;
-    background-color: #fffed4;
-    padding-top: 80px;
-    padding-bottom: 200px;
-    
-}
-
-.glavnoe {
-    text-align: center;
-    justify-content: space-between;
-}
-
-.glavnoe input{
-    padding: 10px;
-    color: #000;
-}
-
-.pole {
-    text-align: center;
-    
-}
-
-.knopka {
-    text-align: center;
-    width: 300px;
-}
+    </main>
+</body>
+</html>
