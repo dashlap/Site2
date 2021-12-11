@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Site2</title>
+</head>
+<body>
+    <main>
+        <section class="one">
+            <div class="background">
+                <h2><p>YOUR LOGO</p></h2>
+                <h5><p>LANDING PAGE</p></h5>
+            </div>
+            
+            <div class="zagol">
+                <h1><p>THE BEST LANDING PAGE</p></h1>
+                <h2><p>YOU ARE LOOKING FOR.</p></h2>
+            </div>
+    
+            <div class="krug">
+                <span class="krugi"><p class="one">63 DAYS</p></span>
+                <span class="krugi"><p>03 HOURS</p></span>
+                <span class="krugi"><p>42 MINUTES</p></span>
+                <span class="krugi"><p>27 SECONDS</p></span>
+            </div>
+    
+            <div class="subscribe">
+                <input type="text" placeholder="Enter your e-mail">
+                <button>Subscribe</button>
+            </div>
+        </section>
+
+
+        <section class="two">
+            <div class="all">
+                <div>
+                    <h2>ABOUT US</h2>
+                    <span class="white">  
+                        Welcome to the number 1 company in the industry! Looking for some helpful advice? Go no further; you've come to the right place. We are professional, experienced and dedicated to your satisfaction. We value your trust!
+                    </span>
+                </div>      
+
+                <div>
+                    <span class="yellow">
+                        We are glad to welcome you on our company website! It is rather content-rich and provides you with tons of information on various aspects of our business. Our team of professionals will happily help you to deal with any issue. Client is our first priority and a great amount of positive testimonials can prove this.
+                    </span>
+                </div>   
+            </div>
+        </section>
+
+
+        <section class="three">
+            <h2>GET IN TOUCH</h2>
+            <div class="glavnoe">
+                <input type="text" required placeholder="Name">
+                <input type="text" required placeholder="Phone">
+                <input type="text" required placeholder="Email">
+            </div>
+
+            <div class="pole">
+                <textarea name="text" id="" cols="60" rows="4" required placeholder="Message"></textarea>
+            </div>  
+
+            <div class="knopka">   
+                <button><p>SEND</p></button>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
