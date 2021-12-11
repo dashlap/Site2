@@ -1,0 +1,147 @@
+body {    
+    margin: 0;
+    
+}
+
+.krug {
+    text-align: center;
+}
+
+.background p{
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+
+}
+
+.zagol p{
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+}
+
+.krugi {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255, 254, 212, 0.18);
+    border-radius: 50%;
+    display: inline-block;
+    
+    
+}
+
+.krugi p {
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+    font-size: 28px;
+}
+
+.one {
+    background-image: url(img/kartin.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    
+}
+.background {
+    padding-top: 10px;
+}
+.zagol h1{
+    font-size: 4vw;
+}
+.zagol {
+    padding-top: 70px;
+}
+
+.zagol h2 {
+    font-weight: lighter;
+}
+
+.subscribe {
+    display: inline-flex;
+    width: auto;
+    max-width: 100%;
+    padding-left: 370px;
+    padding-top: 60px;
+
+}
+
+.subscribe input {
+    border: 1px solid #7e857b;
+    border-right: 1;
+    color: #fff;
+    
+}
+
+.subscribe button {
+    border: 1px solid #7e857b;
+    background:  rgba(255, 254, 212, 0.18);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.subscribe input,
+.subscribe button {
+    display: block;
+    padding: 8px 10px;
+    border: 2;
+    background: transparent;
+    font: inherit;
+    box-sizing: border-box;
+    
+}
+
+.two {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-image: url(kartinka2.jpg);
+}
+
+.two h2{
+    text-align: center;
+    color: #fff;
+    font-family: Arial;
+}
+
+.white {
+    text-align: justify;
+    color: #fff;
+}
+
+.yellow {
+    text-align: justify;
+    color: rgb(250, 229, 112);
+}
+.three h2{
+    color: #475052;
+    text-align: center;
+    font-family: Arial;
+}
+.three {
+    margin: 0;
+    background-color: #fffed4;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    
+}
+
+.glavnoe {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.glavnoe input{
+    padding: 10px;
+    color: #000;
+}
+
+.pole {
+    text-align: center;
+    
+}
+
+.knopka {
+    text-align: center;
+    
+    
+}
